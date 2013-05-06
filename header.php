@@ -35,7 +35,7 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header clear" role="banner">
 		<div id="topbit" class="threed-topbanner">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/HeadPhones.png" class="threed-headphones" alt="93.7FM" /></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/Headphones.png" class="threed-headphones" alt="93.7FM" /></a>
 		<img src="<?php bloginfo('template_directory'); ?>/images/ThreeDRadio.png" alt="Three D Radio">
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
