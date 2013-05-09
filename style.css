@@ -186,7 +186,7 @@ img {
 }
 
 .threed-sidebar-heading {
-	z-index: 101234;
+	z-index: 1;
 	position: relative;
 }
 
@@ -565,6 +565,7 @@ a:hover {
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	line-height: 1.42857143;
+	z-index: 2;
 }
 .main-navigation a {
 	color: #5e5e5e;
@@ -1735,3 +1736,26 @@ img#wpstats {
 	top: -24px;
 	z-index: 0;
 }
+
+.listen_now {
+	margin-left: 12px;
+	padding-left: 5px;
+}
+
+.play_button {
+	width: 33px;
+	height: 33px;
+	margin-right: 16px;
+	background-image: url(images/PlayButton.png);
+	float: left;
+}
+
+.play_button:hover {
+	width: 33px;
+	height: 33px;
+	margin-right: 16px;
+	background-image: url(images/PlayButtonActive.png);
+	float: left;
+}
+
+
