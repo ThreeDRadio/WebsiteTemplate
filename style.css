@@ -512,10 +512,10 @@ body.custom-font-enabled {
 }
 a {
 	outline: none;
-	color: #21759b;
+	color: #8c2606;
 }
 a:hover {
-	color: #0f3647;
+	color: #c55a37;
 }
 
 /* Assistive text */
@@ -686,7 +686,7 @@ footer[role="contentinfo"] a:hover {
 }
 .comments-link a:hover,
 .entry-meta a:hover {
-	color: #21759b;
+	color: #c55a37;
 }
 article.sticky .featured-post {
 	border-top: 4px double #ededed;
@@ -1712,7 +1712,7 @@ img#wpstats {
 
 }
 .schedule_show a:hover {
-	color: #0f0;
+	color: #c55a37;
 }
 .schedule_time {
 	font-size: 7pt;
@@ -1735,11 +1735,18 @@ img#wpstats {
 	position: relative;
 	top: -24px;
 	z-index: 0;
+	font-family: 'Arvo', serif;
+	font-size: 10pt;
 }
 
 .listen_now {
 	margin-left: 12px;
 	padding-left: 5px;
+	font-family: 'Arvo', serif;
+	font-size: 13pt;
+}
+.listen_now a:link {
+	text-decoration: none;
 }
 
 .play_button {
@@ -1750,6 +1757,37 @@ img#wpstats {
 	float: left;
 }
 
+.threed_feature_image {
+	width: 68px;
+	height: 68px;
+	margin-right: 16px;
+	float: left;
+	margin-left: 24px;
+}
+
+.threed_feature {
+	font-size: 9pt;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 12px;
+	padding-bottom: 5px;
+	margin-left: 12px;
+	line-height: 12pt;
+	clear: both;
+}
+
+.threed_feature_heading {
+	font-family: 'Arvo', serif;
+	font-size: 13pt;
+	margin-top: 4px;
+	margin-bottom: 8px;
+}
+.threed_feature_artist {
+	font-weight: bold;
+}
+
+.threed_feature_title {
+}
 .play_button:hover {
 	width: 33px;
 	height: 33px;
@@ -1758,4 +1796,6 @@ img#wpstats {
 	float: left;
 }
 
-
+h1 {
+	font-family: 'Arvo', serif;
+}
