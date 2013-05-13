@@ -206,6 +206,7 @@ img {
 .entry-content th,
 .comment-content th {
 	font-size: 11px;
+	text-align: center;
 	font-size: 0.785714286rem;
 	line-height: 2.181818182;
 	font-weight: bold;
@@ -593,8 +594,7 @@ section[role="banner"] {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
-	margin-bottom: 24px;
-	margin-bottom: 1.714285714rem;
+	margin-bottom: 48px;
 	word-wrap: break-word;
 }
 .widget-area .widget h3 {
@@ -909,7 +909,7 @@ img.aligncenter {
 }
 .entry-content td,
 .comment-content td {
-	border-top: 1px solid #ededed;
+	border-top: 1px solid;
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
@@ -1704,7 +1704,7 @@ img#wpstats {
 	padding-bottom: 3px;
 	margin: 0px;
 	padding: 0px;
-	text-align: center;
+	text-align: left;
 }
 .schedule_show a {
 	color: #333;
@@ -1719,6 +1719,7 @@ img#wpstats {
 	margin: 0px;
 	padding: 0px;
 	padding-left: 2em;
+	text-transform: capitalize;
 }
 
 .now_playing {
@@ -1728,6 +1729,7 @@ img#wpstats {
 	padding-top: 35px;
 	padding-bottom: 5px;
 	margin-left: 12px;
+	margin-bottom: -24px;
 	width: 230px;
 	border-radius: 5px;
 	text-align: center;
@@ -1798,4 +1800,8 @@ img#wpstats {
 
 h1 {
 	font-family: 'Arvo', serif;
+}
+
+.site-info { 
+	text-align: center;
 }
