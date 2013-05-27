@@ -1814,7 +1814,7 @@ h1 {
 	column-count: 2;
 	column-width: 50%;
 	font-size: 8pt;
-	width: 730px;
+	width: 690px;
 	float: left;
 }
 .depthcharge_thumbnail img {
@@ -1823,5 +1823,5 @@ h1 {
 }
 
 .depthcharge_release {
-	width: 1000px;
+	width: 920px;
 }
