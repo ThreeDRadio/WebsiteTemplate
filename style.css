@@ -1804,3 +1804,24 @@ h1 {
 .site-info { 
 	text-align: center;
 }
+
+
+.depthcharge_track_listing {
+	-moz-column-count: 2;
+	-moz-column-width: 50%;
+	-webkit-column-count: 2;
+	-webkit-column-width: 50%;
+	column-count: 2;
+	column-width: 50%;
+	font-size: 8pt;
+	width: 730px;
+	float: left;
+}
+.depthcharge_thumbnail img {
+	float: left;
+	width: 230px;
+}
+
+.depthcharge_release {
+	width: 1000px;
+}
