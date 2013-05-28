@@ -23,6 +23,7 @@ get_header(); ?>
 			<?php the_post_thumbnail(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
 				<?php comments_template( '', true ); ?>
+				<?php the_meta(); ?>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
