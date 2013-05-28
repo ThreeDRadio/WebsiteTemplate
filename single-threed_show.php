@@ -22,8 +22,17 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 			<?php the_post_thumbnail(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
-				<?php comments_template( '', true ); ?>
-				<?php the_meta(); ?>
+<p><b>Hosted By:</b> <?php echo get_post_meta(get_the_ID(), 'threed_show_hosts', true); ?></p>
+<p><b>Airs On: </b> <?php echo threedGetDay(get_post_meta(get_the_ID(), 'threed_show_day', true)); ?>, 
+<?php
+echo threedFriendlyTime( get_post_meta(get_the_ID(), 'threed_show_start', true)) . " - ";
+echo threedFriendlyTime( get_post_meta(get_the_ID(), 'threed_show_end', true)) ;
+?></p>
+<p><b><a href="<?php echo get_post_meta(get_the_ID(), 'threed_show_url', true); ?>">Show Website</a></b></p>
+
+				<?php
+
+?>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
