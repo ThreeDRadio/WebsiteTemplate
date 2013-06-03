@@ -3,7 +3,7 @@ Styles for older IE versions (previous to IE9).
 */
 
 body {
-	background-color: #e6e6e6;
+	background-color: #545454;
 }
 body.custom-background-empty {
 	background-color: #fff;
@@ -44,9 +44,8 @@ img[class*="attachment-"] {
 .site {
 	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 	margin: 48px auto;
-	max-width: 960px;
+	width: 1000px;
 	overflow: hidden;
-	padding: 0 40px;
 }
 .site-content {
 	float: left;
@@ -71,11 +70,8 @@ body.full-width .site-content {
 }
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
-	border-bottom: 1px solid #ededed;
-	border-top: 1px solid #ededed;
 	display: inline-block !important;
 	text-align: left;
-	width: 100%;
 }
 .main-navigation ul {
 	margin: 0;
@@ -92,16 +88,19 @@ body.full-width .site-content {
 }
 .main-navigation li a {
 	border-bottom: 0;
-	color: #6a6a6a;
+	color: #ccc;
 	line-height: 3.692307692;
 	text-transform: uppercase;
+		font-weight: bold;
+		line-height: 3.0;
 }
 .main-navigation li a:hover {
-	color: #000;
+	color: #ccc;
 }
 .main-navigation li {
 	margin: 0 40px 0 0;
 	position: relative;
+	float: left;
 }
 .main-navigation li ul {
 	display: none;
@@ -125,6 +124,7 @@ body.full-width .site-content {
 }
 .main-navigation li ul li a {
 	background: #efefef;
+		color: #999;
 	border-bottom: 1px solid #ededed;
 	display: block;
 	font-size: 11px;
@@ -133,8 +133,8 @@ body.full-width .site-content {
 	width: 180px;
 }
 .main-navigation li ul li a:hover {
-	background: #e3e3e3;
-	color: #444;
+		background: #e3e3e3;
+		color: #444;
 }
 .main-navigation .current-menu-item > a,
 .main-navigation .current-menu-ancestor > a,
