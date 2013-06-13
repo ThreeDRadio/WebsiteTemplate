@@ -1721,6 +1721,18 @@ img#wpstats {
 	text-transform: capitalize;
 }
 
+.show-profile-image {
+	float: left; width: 260px; height: 260px; 
+	background-image: url("images/debut_dark.png");
+	text-align: center;
+	padding-top: 15px;
+}
+
+
+.attachment-threed-show-profile {
+	float: left; width: 260px; height: 260px; 
+}
+
 .now_playing {
 	background-color: #ccc;
 	background-image: url("images/debut_dark.png");
