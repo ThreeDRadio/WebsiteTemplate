@@ -433,3 +433,13 @@ function twentytwelve_customize_preview_js() {
 	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20120827', true );
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
+
+
+function threed_nopaging($query) {
+	if (is_post_type_archive()) {
+		$query->set('nopaging', 1);
+		$query->set('orderby', 'name');
+		$query->set('order', 'asc');
+	}
+}
+add_action('parse_query', 'threed_nopaging');
