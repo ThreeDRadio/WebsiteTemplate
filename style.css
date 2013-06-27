@@ -1731,6 +1731,13 @@ img#wpstats {
 	padding-top: 15px;
 }
 
+.attachment-discounter-big {
+	float: left; width: 180px; height: 180px; 
+	background-image: url("images/debut_dark.png");
+	text-align: center;
+	padding-top: 15px;
+}
+
 
 .attachment-threed-show-profile {
 	float: left; width: 260px; height: 260px; 
@@ -1846,4 +1853,35 @@ h1 {
 
 .depthcharge_release {
 	width: 920px;
+}
+
+.attachment-discounter-thumb {
+     float: left;
+     width: 80px;
+     height: 80px;
+     margin-top: 30px;
+}
+
+.discounter-title  h2 {
+	padding-bottom: 2px;
+	margin-bottom: 0px;
+}
+
+.discounter-list {
+	margin-left: 24px;
+	-moz-column-count: 2;
+	-moz-column-width: 50%;
+	-webkit-column-count: 2;
+	-webkit-column-width: 50%;
+	column-count: 2;
+	font-size: 12pt;
+	line-height: 15pt;
+	column-width: 50%;
+	width: 690px;
+	float: left;
+	margin-bottom: 72px;
+}
+
+.discounter-list a {
+	text-decoration: none;
 }
