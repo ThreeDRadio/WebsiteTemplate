@@ -57,7 +57,7 @@ echo get_post_meta(get_the_ID(), 'threed_discounter_phone', true);
 <p>
 <?php
 if (get_post_meta(get_the_ID(), 'threed_discounter_url', true) !== "") {
-echo '<a href="' . get_post_meta(get_the_ID(), 'threed_discounter_url', true) . '">' . get_post_meta(get_the_ID(), 'threed_discounter_url', true). '</a>';
+echo '<a href="' . get_post_meta(get_the_ID(), 'threed_discounter_url', true) . '" target="_blank">' . get_post_meta(get_the_ID(), 'threed_discounter_url', true). '</a>';
 }
 ?>
 </p>
