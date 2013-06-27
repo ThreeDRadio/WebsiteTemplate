@@ -1559,7 +1559,7 @@ img#wpstats {
 @media screen and (min-width: 960px) {
 	body {
 		background-color: #545454;
-		background-image: url("images/bg.png");
+		background-image: url("images/bg.jpg");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
