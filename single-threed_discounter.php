@@ -23,7 +23,7 @@ get_header(); ?>
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<header class="entry-header">
-			<h1 class="entry-title"><?php the_title(); ?></h1>
+			<h1 class="entry-title">Discounter: <?php the_title(); ?></h1>
 		</header>
 <?php
 			if (has_post_thumbnail(get_the_ID())) {
