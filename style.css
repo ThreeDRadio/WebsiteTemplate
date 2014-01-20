@@ -1884,3 +1884,19 @@ h1 {
 .discounter-list a {
 	text-decoration: none;
 }
+
+.top101-position {
+    font-size: 60pt;
+    width: 140px;
+    text-align: right;
+    float: left;
+}
+.top101-h1 {
+    padding-top: 10px;
+    padding-left:30px;
+    float: left;
+    clear: none;
+}
+
+.top101-origin {
+}
