@@ -47,6 +47,7 @@ get_header(); ?>
         echo '<td>' . get_post_meta(get_the_ID(), "threed_top101_origin", true) . '</td></tr>';
 	}
     echo '</table>';
+    wp_reset_postdata();
 ?>
 		</div><!-- .entry-content -->
 
