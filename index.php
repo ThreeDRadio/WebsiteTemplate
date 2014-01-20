@@ -22,7 +22,11 @@ get_header(); ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
+<?php if ('threed_top101_entry' == get_post_type()) : ?>
+				<?php get_template_part( 'content', 'threed_top101_entry' ); ?>
+<?php else : ?>
 				<?php get_template_part( 'content', get_post_format() ); ?>
+<?php endif ?>
 			<?php endwhile; ?>
 
 			<?php twentytwelve_content_nav( 'nav-below' ); ?>
