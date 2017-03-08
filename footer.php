@@ -13,7 +13,7 @@
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
-			Copyright &copy; 2013 Progressive Music Broadcasting Association, Inc.
+			Copyright &copy; <?php echo date('Y'); ?> Progressive Music Broadcasting Association, Inc.
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
